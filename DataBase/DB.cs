@@ -26,7 +26,7 @@ namespace TestTask.DataBase
         public string Name_ { get; set; }
         public string Desc_ { get; set; }
         public List<string> Image_ { get; set; }
-        public string Price_ { get; set; }
+        public int Price_ { get; set; }
         public DateTime Date_ { get; set; }
         public string User_ { get; set; }
 

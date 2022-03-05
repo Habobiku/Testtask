@@ -53,7 +53,7 @@ namespace TestTask.Client
                     ID = i.ID,
                     Image_ = i.Image_,
                     Name_ = i.Name_,
-                    Price_ = i.Price_,
+                    Price_ = Convert.ToInt32(i.Price_),
                     User_ = i.User_,
                 };
                 lol.Add(res);
