@@ -1,0 +1,9 @@
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.Development.json
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.json
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/TestTask.dll
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/TestTask.deps.json
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/TestTask.runtimeconfig.json
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/TestTask.pdb
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/AWSSDK.Core.dll
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/AWSSDK.DynamoDBv2.dll
+/Users/Habob/Projects/TestTask/TestTask/obj/Release/netcoreapp3.1/PubTmp/Out/DynamoDBMapper.dll

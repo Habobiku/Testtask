@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Client\" />
+    <None Remove="DataBase\" />
+    <None Remove="AWSSDK.DynamoDBv2" />
+    <None Remove="Extentions\" />
+    <None Remove="Responce\" />
+    <None Remove="DynamoDBMapper" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Client\" />
+    <Folder Include="DataBase\" />
+    <Folder Include="Extentions\" />
+    <Folder Include="Responce\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.2.20" />
+    <PackageReference Include="DynamoDBMapper" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+</Project>
