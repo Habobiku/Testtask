@@ -34,29 +34,14 @@ namespace TestTask.Controllers
 
         public async Task<IActionResult> GetAn([FromQuery] GetResponce get)
         {
-            Item res = new Item();
             var result = await _dynamoDbClient.GetAn(get);
             if (result == null)
                 return NotFound("Not found ad");
             
             
-            foreach (var i in result.items)
-            {
-
-                res.ID = i.ID;
-                res.Name_ = i.Name_;
-                res.Desc_ = i.Desc_;
-                res.Image_ = i.Image_;
-                res.Price_ = i.Price_;
-                res.Date_ = i.Date_;
-                //Convert.ToDateTime(i.Date_, "yyyy-MM-dd"),
-                
-                res.User_ = i.User_;
-                
-
-            }
+           
        
-            return Ok(res);
+            return Ok(result);
 
         }
 
